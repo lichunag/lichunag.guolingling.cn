@@ -247,7 +247,10 @@ figcaption h2{
 }
 .test5 figcaption p{
 	color: pink;
-    transform: skew(90deg);
+  	margin-left: 20%;
+	cursor: pointer;
+    transform:translate(0px,50px);
+    opacity: 0;  
 }
 .test5:hover figcaption h2{
 	transform: translate(0px,-10px);
@@ -255,7 +258,8 @@ figcaption h2{
 	color: black;
 }
 .test5:hover figcaption p{
-	transform: skew(0deg);	
+transform:translate(0px,0px);
+    opacity: 1;		
 }
 
 .test6{
